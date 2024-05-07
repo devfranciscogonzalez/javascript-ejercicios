@@ -1,4 +1,4 @@
-# Ejercicio [Número] - [Título]
+# Ejercicio 02 - Inversion Recursiva de Cadenas
 
 ## Enunciado
 

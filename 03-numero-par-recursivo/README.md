@@ -1,4 +1,4 @@
-# Ejercicio [Número] - [Título]
+# Ejercicio 03 - Numero Par Recursivo
 
 ## Enunciado
 
