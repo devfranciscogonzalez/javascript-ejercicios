@@ -10,4 +10,4 @@ Por ejemplo, el número 13 podría alcanzarse al multiplicar por 3 y luego sumar
 
 | Tema      | Origen                   | Dificultad |
 | --------- | ------------------------ | ---------- |
-| Recursión | Libro Eloquent Edición 4 | Medio      |
+| Recursión | Libro Eloquent Edición 4 | Media      |
