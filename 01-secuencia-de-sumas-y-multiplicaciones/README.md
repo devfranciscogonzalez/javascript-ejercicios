@@ -8,6 +8,6 @@ Por ejemplo, el número 13 podría alcanzarse al multiplicar por 3 y luego sumar
 
 ## Información
 
-| Tema      | Origen                   | Dificultad |
-| --------- | ------------------------ | ---------- |
-| Recursión | Libro Eloquent Edición 4 | Media      |
+| Tema      | Origen                     | Dificultad |
+| --------- | -------------------------- | ---------- |
+| Recursión | Libro Eloquent - Edición 4 | Media      |
