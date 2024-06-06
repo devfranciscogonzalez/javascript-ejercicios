@@ -1,4 +1,4 @@
-# Ejercicio [Número] - [Título]
+# Ejercicio 04 - Encontrar Numeros Repetidos
 
 ## Enunciado
 
@@ -32,4 +32,4 @@ En otras palabras, si hay más de un número repetido, debes devolver el número
 
 | Tema      | Origen                  | Dificultad |
 |-----------|-------------------------|------------|
-| Algoritmo  | https://adventjs.dev/es/challenges/2023/1  | [Facil] |
+| Algoritmos  | https://adventjs.dev/es/challenges/2023/1  | fácil |

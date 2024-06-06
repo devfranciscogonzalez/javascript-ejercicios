@@ -16,4 +16,4 @@ Pruébalo con 50 y 75. Observa cómo se comporta con -1. ¿Por qué? ¿Puedespen
 
 | Tema      | Origen                   | Dificultad |
 | --------- | ------------------------ | ---------- |
-| Recursión | Libro Eloquent - Edición 4 | fácil      |
+| Recursión | Libro Eloquent - Edición 4 | fácil    |

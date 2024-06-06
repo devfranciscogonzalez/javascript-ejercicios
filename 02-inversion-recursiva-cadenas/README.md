@@ -8,4 +8,4 @@ Escribe un programa que invierta una cadena usando recursión. Dada la cadena "f
 
 | Tema      | Origen       | Dificultad |
 | --------- | ------------ | ---------- |
-| Recursión | freeCodeCamp | fácil      |
+| Recursión | freeCodeCamp | fácil    |
