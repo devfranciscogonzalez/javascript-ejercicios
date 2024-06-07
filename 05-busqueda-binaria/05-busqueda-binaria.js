@@ -1,4 +1,4 @@
-let arrayShort = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let arraySort = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 // Secuencial
 function searchBinary(arr, target) {
@@ -20,7 +20,7 @@ function searchBinary(arr, target) {
   return -1;
 }
 
-console.log(searchBinary(arrayShort, 10));
+console.log(searchBinary(arraySort, 10));
 
 // Recursivo
 
@@ -41,4 +41,4 @@ function searchBinaryRecursive(arr, target, left = 0, right = arr.length - 1) {
   }
 }
 
-console.log(searchBinaryRecursive(arrayShort, 10));
+console.log(searchBinaryRecursive(arraySort, 10));
