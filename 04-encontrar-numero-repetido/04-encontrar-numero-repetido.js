@@ -2,9 +2,11 @@ const giftIds = [2, 1, 3, 5, 3, 2];
 const firstRepeatedId = findFirstRepeated(giftIds);
 const firstRepeatedIdMap = findFirstRepeatedMap(giftIds);
 const firstRepeatedIdArray = findFirstRepeatedArray(giftIds);
+const firstRepeatedIdSet = findFirstRepeatedSet(giftIds);
 console.log(firstRepeatedId);
 console.log(firstRepeatedIdMap);
 console.log(firstRepeatedIdArray);
+console.log(firstRepeatedIdSet);
 
 // Utilizando for: Complejidad O(n^2) debido a los dos bucles anidados
 function findFirstRepeated(gifts) {
@@ -58,6 +60,20 @@ function findFirstRepeatedArray(gifts) {
       return gifts[i];
     }
     seen.push(gifts[i]);
+  }
+  return -1;
+}
+
+// Utilizando Set
+
+function findFirstRepeatedSet(gifts) {
+  let seen = new Set();
+
+  for (let gift of gifts) {
+    if (seen.has(gift)) {
+      return gift;
+    }
+    seen.add(gift);
   }
   return -1;
 }
