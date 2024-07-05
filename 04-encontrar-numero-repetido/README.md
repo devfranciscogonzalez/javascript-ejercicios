@@ -27,7 +27,7 @@ En otras palabras, si hay más de un número repetido, debes devolver el número
 
        Test: findFirstRepeated([1, 3, 4, 5, 0, 1, 3, 0, 7])
        Test: findFirstRepeated([1, 10, 2, 10, 20, 50, 7, 0, 0, 7])
-       
+
 ## Información
 
 | Tema      | Origen                  | Dificultad |
