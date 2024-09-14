@@ -21,4 +21,4 @@ Asegúrate de manejar el caso donde n es 0 o 1 adecuadamente.
 
 | Tema      | Origen                  | Dificultad |
 |-----------|-------------------------|------------|
-| Tema    | Desconocido  | Facil |
+| Algoritmo    | Desconocido  | Facil |

@@ -1,20 +1,18 @@
-function manufacture(gifts, materials) {
-  // Code here
-  let arr = [];
-  for (let gif of gifts) {
-    let gifArr = gif.split("");
-    console.log(gifArr);
+function decode(message) {
+  let stack = [];
 
-    let aux = gifArr.every((e) => {
-      return materials.includes(e);
-    });
+  for (a of message) {
+    if (a === ")") {
+      let temp = [];
 
-    if (aux) arr.push(gif);
+      while (stack.length > 0 && stack[stack.length - 1] !== "(") {
+        temp.push(stack.pop);
+      }
+    } else {
+      stack.push(a);
+    }
   }
-
-  return arr;
+  return "hola";
 }
-const gifts = ["tren", "oso", "pelota"];
-const materials = "tronesa";
-
-console.log(manufacture(gifts, materials));
+const c = decode("sa(u(cla)atn)s");
+console.log(c);
